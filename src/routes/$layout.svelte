@@ -4,25 +4,15 @@
 
 <style>
 	:global(body) {
-		--background: #edf2f6;
-
-		--primary: #e84545;
-
-		--black-1: #222831;
-		--black-2: #595e65;
-		--black-3: #919498;
-
-		--gray-1: #393e46;
-		--gray-2: #6b6e74;
-		--gray-3: #9c9fa3;
-
-		--white-1: #ffffff;
-		--white-2: #eeeeee;
-
-		--title: 'Sansita';
-		--text: 'Noto Serif';
-
-		--shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+		--background: #364f6b;
+		--primary: #3fc1c9;
+		--secondary: #fc5185;
+		--black: #393e46;
+		--white: #ffffff;
+		--color: #f5f5f5;
+		--font: 'Roboto Slab';
+		--text: 'Roboto';
+		--shadow: 0px 0px 2px 0.5px rgba(0, 0, 0, 0.25);
 		--radius: 6px;
 	}
 

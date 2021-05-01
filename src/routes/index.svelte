@@ -1,16 +1,18 @@
 <script>
-	import Content from '../libs/Content.svelte';
+  import Modal from "../libs/Modal/Modal.svelte";
 </script>
 
 <div class="home">
-	<Content />
+  <Modal />
 </div>
 
 <style>
 	.home {
 		width: 100%;
-		height: 100vh;
+		min-height: 100vh;
 		display: grid;
 		place-items: center;
+		position: relative;
+		transition: 0.5s;
 	}
 </style>
