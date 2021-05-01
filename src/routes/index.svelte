@@ -1,9 +1,9 @@
 <script>
-  import Modal from "../libs/Modal/Modal.svelte";
+	import Modal from '../libs/Modal/Modal.svelte';
 </script>
 
 <div class="home">
-  <Modal />
+	<Modal />
 </div>
 
 <style>

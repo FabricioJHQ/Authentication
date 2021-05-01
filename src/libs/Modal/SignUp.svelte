@@ -1,7 +1,8 @@
 <script>
-  import { auth } from './auth'
+	import { auth } from './auth';
 
-  let image = 'https://raw.githubusercontent.com/FabricioJHQ/Authentication/main/static/images/1.jpg';
+	let image =
+		'https://images.pexels.com/photos/3007370/pexels-photo-3007370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940';
 </script>
 
 <div class="user signupBox" class:active={$auth}>
@@ -17,44 +18,44 @@
 		</form>
 	</div>
 	<div class="imgBox">
-		<img src="{image}" alt="SignUp" />
+		<img src={image} alt="SignUp" />
 	</div>
 </div>
 
 <style>
-  .signupBox {
-    pointer-events: none;
-  }
-  .signupBox.active .imgBox {
-    transform: translateY(100%);
-  }
-  .signupBox.active .formBox {
-    transform: translateY(-100%);
-  }
-  .imgBox {
-    top: -100%;
-  }
-  .formBox {
-    top: 100%;
-  }
-  form h2 {
-    color: var(--secondary);
-  }
-  form input[type='submit'] {
-    background-color: var(--secondary);
-  }
-  form p { 
-    position: relative;
-    margin-top: 1.25rem;
-    font-family: var(--text);
-    font-weight: 300;
-    font-size: 12px;
-    color: #555;
-    text-transform: uppercase;
-  }
-  form p span {
-    font-weight: 600;
-    color: var(--secondary);
-    cursor: pointer;
-  }
+	.signupBox {
+		pointer-events: none;
+	}
+	.signupBox.active .imgBox {
+		transform: translateY(100%);
+	}
+	.signupBox.active .formBox {
+		transform: translateY(-100%);
+	}
+	.imgBox {
+		top: -100%;
+	}
+	.formBox {
+		top: 100%;
+	}
+	form h2 {
+		color: var(--secondary);
+	}
+	form input[type='submit'] {
+		background-color: var(--secondary);
+	}
+	form p {
+		position: relative;
+		margin-top: 1.25rem;
+		font-family: var(--text);
+		font-weight: 300;
+		font-size: 12px;
+		color: #555;
+		text-transform: uppercase;
+	}
+	form p span {
+		font-weight: 600;
+		color: var(--secondary);
+		cursor: pointer;
+	}
 </style>
